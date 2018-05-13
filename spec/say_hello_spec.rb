@@ -2,6 +2,7 @@ def say_hello(name = "Terrance")
   puts "Hello #{name}!"
 end
 
+say_hello
 require_relative './spec_helper'
 
 describe "say_hello" do
