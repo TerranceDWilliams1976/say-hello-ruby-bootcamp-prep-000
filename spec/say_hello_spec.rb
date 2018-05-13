@@ -1,5 +1,5 @@
 def say_hello(name="Terrance")
-  puts "Hello , #{name}!"
+  puts "Hello, #{name}!"
 end
 
 require_relative './spec_helper'
